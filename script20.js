@@ -1,12 +1,18 @@
-let animalArray = [
-    "tiger", "turtle", "bird"
-  ];
 
 function listArray () {
-    console.log(animalArray);
+    let animalArray = [
+        "tiger", "turtle", "bird"
+      ];
     for (let i = 0; i < animalArray; i++) {
-        console.log(animalArray);
-        return[i];
+        console.log(animalArray[i]);
     }
 }
-console.log(listArray());
+
+const listArrayAlt = () => {
+    let animalArray = [
+        "tiger", "turtle", "bird"
+      ];
+    for (let i = 0; i < animalArray; i++) {
+        console.log(animalArray[i]);
+    }
+}
